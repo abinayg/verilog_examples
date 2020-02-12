@@ -1,0 +1,98 @@
+$date
+	Fri Jan 31 01:22:21 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_4_1_tb $end
+$var wire 1 ! out $end
+$var reg 4 " in [3:0] $end
+$var reg 2 # sel [1:0] $end
+$var integer 32 $ i [31:0] $end
+$scope module inst_1 $end
+$var wire 4 % in [3:0] $end
+$var wire 2 & sel [1:0] $end
+$var wire 1 ! out $end
+$var wire 1 ' B $end
+$var wire 1 ( A $end
+$scope module inst_1 $end
+$var wire 2 ) in [0:1] $end
+$var wire 1 * sel $end
+$var wire 1 ( out $end
+$upscope $end
+$scope module inst_2 $end
+$var wire 2 + in [0:1] $end
+$var wire 1 , sel $end
+$var wire 1 ' out $end
+$upscope $end
+$scope module inst_3 $end
+$var wire 2 - in [0:1] $end
+$var wire 1 . sel $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x.
+bx -
+x,
+b10 +
+x*
+b1 )
+x(
+x'
+bx &
+b110 %
+b0 $
+bx #
+b110 "
+x!
+$end
+#5
+0!
+0(
+0*
+b1 -
+1'
+0,
+0.
+b1 $
+b0 #
+b0 &
+#10
+1!
+1(
+1*
+b10 -
+0'
+1,
+b10 $
+b1 #
+b1 &
+#15
+0(
+0*
+b1 -
+1'
+0,
+1!
+1.
+b11 $
+b10 #
+b10 &
+#20
+1(
+1*
+0!
+b10 -
+0'
+1,
+b100 $
+b11 #
+b11 &
+#30

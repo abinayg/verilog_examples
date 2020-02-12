@@ -1,0 +1,176 @@
+$date
+	Tue Feb 11 14:07:38 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module shift_reg_tb $end
+$var wire 4 ! data_out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # data_in $end
+$var reg 1 $ reset $end
+$scope module inst_1 $end
+$var wire 1 " clk $end
+$var wire 1 # data_in $end
+$var wire 1 $ reset $end
+$var wire 4 % data_out [3:0] $end
+$scope module inst_1 $end
+$var wire 1 " clk $end
+$var wire 1 # data $end
+$var wire 1 $ reset $end
+$var reg 1 & out $end
+$upscope $end
+$scope module inst_2 $end
+$var wire 1 " clk $end
+$var wire 1 ' data $end
+$var wire 1 $ reset $end
+$var reg 1 ( out $end
+$upscope $end
+$scope module inst_3 $end
+$var wire 1 " clk $end
+$var wire 1 ) data $end
+$var wire 1 $ reset $end
+$var reg 1 * out $end
+$upscope $end
+$scope module inst_4 $end
+$var wire 1 " clk $end
+$var wire 1 + data $end
+$var wire 1 $ reset $end
+$var reg 1 , out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+bx %
+x$
+x#
+0"
+bx !
+$end
+#2
+0'
+0)
+0+
+0&
+0(
+0*
+b0 !
+b0 %
+0,
+1$
+#4
+1#
+0$
+#5
+1'
+b1 !
+b1 %
+1&
+1"
+#10
+0"
+#14
+0#
+#15
+0'
+1)
+0&
+b10 !
+b10 %
+1(
+1"
+#20
+0"
+#24
+1#
+#25
+1+
+0)
+1'
+1*
+0(
+b101 !
+b101 %
+1&
+1"
+#30
+0"
+#35
+1)
+0+
+1(
+0*
+b1011 !
+b1011 %
+1,
+1"
+#40
+0"
+#44
+0#
+#45
+1+
+0'
+0,
+1*
+b110 !
+b110 %
+0&
+1"
+#50
+0"
+#54
+1#
+#55
+1'
+0)
+1&
+0(
+b1101 !
+b1101 %
+1,
+1"
+#60
+0"
+#64
+0#
+#65
+0+
+1)
+0'
+0*
+1(
+b1010 !
+b1010 %
+0&
+1"
+#70
+0"
+#74
+1#
+#75
+1'
+0)
+1+
+1&
+0(
+1*
+b101 !
+b101 %
+0,
+1"
+#80
+0"
+#84
